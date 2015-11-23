@@ -1,0 +1,107 @@
+\usepackage[T1]{fontenc}
+\usepackage[orientation=landscape, size = custom, width = 180, height = 120, scale = 1.4]{beamerposter}
+\usepackage[absolute, overlay]{textpos}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png, .jpg, .pdf}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[version=3]{mhchem}
+\usepackage{chemarrow}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{tcolorbox}
+\usepackage[numbers]{natbib}
+\usepackage{baskervald}
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes, decorations, positioning}
+\tcbuselibrary{skins}
+
+%Helvetica sans-serif font
+\renewcommand{\sfdefault}{phv}
+%Utopia serif font
+\renewcommand{\rmdefault}{put}
+%\usepackage[quiet]{fontspec}
+%\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Tahoma}
+%\setsansfont{Tahoma}
+
+\renewcommand*{\bibfont}{\footnotesize}
+\def\newblock{\hskip .11em plus .33em minus .07em}
+\newcolumntype{P}[1]{>{\raggedright\let\newline\\\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\raggedright\arraybackslash}m{#1}}
+
+\definecolor{TitleBlue}{RGB}{75,151,182}
+\definecolor{TextGrey}{RGB}{101,98,99}
+\definecolor{BkgdBlue}{RGB}{224,238,244}
+\definecolor{BkgdGrey}{RGB}{236,236,236}
+
+\TPGrid[40mm,40mm]{30}{100}
+
+%create colourbox for framing each sections text
+\newtcolorbox{BlueBox}{spartan, colback=BkgdBlue, colframe=TitleBlue, toprule=5mm, bottomrule=0mm, rightrule=0mm, leftrule=0mm} %blue boxes
+\newtcolorbox{GreyBox}{spartan, colback=white, colframe=TitleBlue, toprule=5mm, bottomrule=1mm, rightrule=1mm, leftrule=1mm} %grey boxes
+\newtcolorbox{WhiteBox}{spartan, colback=white, colframe=TextGrey, toprule=5mm, bottomrule=0mm, rightrule=0mm, leftrule=0mm} %footer boxed
+\newtcolorbox{ClearBox}{spartan, colback=white, colframe=white, toprule=0mm, bottomrule=0mm, rightrule=0mm, leftrule=0mm} %qr-code boxed
+
+%sizes for different sections
+\def\BHead#1{\begin{flushleft}{{\fontseries{bx}\fontsize{36}{44}\selectfont\color{TitleBlue} #1}}\smallskip\end{flushleft}}
+\def\GHead#1{\begin{flushleft}{{\fontseries{bx}\fontsize{36}{44}\selectfont\color{TextGrey} #1}}\smallskip\end{flushleft}}
+\def\Subhead#1{\noindent{\large\color{white}#1}}
+\def\Subsubhead#1{\noindent{\begin{flushleft}{{\fontseries{bx}\fontsize{36}{44}\selectfont\color{TextGrey} #1}}\smallskip\end{flushleft}}}
+
+\hypersetup{pdfauthor = {Jane Coates},
+		    pdftitle = {2015 AGU Fall Meeting Poster Presentation},	
+		    pdfsubject = {AGU Fall Meeting, tropospheric ozone, temperature, NOx conditions},
+		    pdfkeywords = {tropospheric ozone, AGU, temperature, NOx gradients},
+            pdfcreator = {Latex with hyperref}}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{itemize item}{fg=TitleBlue}
+%bibliography
+\setbeamercolor{bibliography item}{fg=black}
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamercolor*{bibliography entry title}{fg=black}
+\setbeamercolor*{bibliography entry location}{fg=black}
+\setbeamercolor*{bibliography entry note}{fg=black}
+\setbeamertemplate{bibliography item}[text]
+
+\newcommand{\cemph}[1]{\textcolor{\highlightcolor}{#1}}
+\newcommand{\highlightcolor}{TitleBlue}
+\newcommand{\authorname}{Jane Coates and Tim Butler}
+\newcommand{\postertitle}{The Influence of Atmospheric Conditions on the Production of Ozone during VOC Oxidation}
+%\newcommand{\subposter}{A Comparison of Chemical Mechanisms}
+\newcommand{\Institute}{Institute for Advanced Sustainability Studies (IASS)}
+
+%header
+\setbeamercolor{headline}{fg=white, bg=TitleBlue}
+\setbeamercolor{title in headline}{fg=white}
+\setbeamercolor{institute in headline}{fg=white}
+\setbeamercolor{author in headline}{fg=white}
+
+\setbeamertemplate{headline}{
+    \leavevmode
+    \begin{beamercolorbox}[wd=\paperwidth]{headline}
+        \begin{flushleft}
+            \begin{tikzpicture}[overlay]
+                \node (topleft) {};
+                \node (lowerleft) [below = 2cm of topleft] {}; 
+                \node (A) [right = 3.4cm of lowerleft] {};
+                \node (B) [right = 160cm of A] {};
+                \draw [draw = white, line width = 7mm] (A) -- (B);
+                \node (dummy) [below = 2.5cm of A] {};
+                \node (logo) [right = 161cm of dummy] {\includegraphics{img/IASS_Logo_white}};
+            \end{tikzpicture}
+            \vskip4cm \hskip38mm
+            \usebeamercolor{institute in headline}{\color{fg}{\fontsize{50}{45} \selectfont \rmfamily{\Institute}}\\}
+            \vskip5cm \hskip38mm
+            \usebeamercolor{title in headline}{\color{fg}{\fontsize{115}{140} \selectfont \rmfamily{\postertitle}}\\}
+            \vskip3cm \hskip38mm
+            %\usebeamercolor{title in headline}{\color{fg}{\fontsize{80}{96} \selectfont \subposter}\\}
+            %\vskip2.6cm \hskip38mm
+            \usebeamercolor{author in headline}{\color{fg}{\fontsize{65}{45} \selectfont \rmfamily{\authorname}}\\}
+            \vskip2cm
+        \end{flushleft}
+    \end{beamercolorbox}
+}
