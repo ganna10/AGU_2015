@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  23 NOV 2015 14:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  23 NOV 2015 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,8 +107,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size20.clo
-File: size20.clo 1999/11/11 NON-Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -905,105 +905,6 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count172
 )
-(/usr/share/texlive/texmf-dist/tex/latex/baskervald/baskervald.sty
-Package: baskervald 2010/07/13 v1.0 baskervald
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/nfssext-cfr/nfssext-cfr.sty
-Package: nfssext-cfr 2008/11/08 specially mangled by cfr; based on 2003/03/14 v
-1.2 Experimental NFSS Extensions
-\c@taken=\count173
-LaTeX Info: Redefining \itshape on input line 503.
-LaTeX Info: Redefining \scshape on input line 511.
-LaTeX Info: Redefining \upshape on input line 525.
-))
 (/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
@@ -1020,7 +921,7 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count174
+\pgf@plot@mark@count=\count173
 \pgfplotmarksize=\dimen203
 )
 \tikz@lastx=\dimen204
@@ -1031,18 +932,18 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikzsiblingdistance=\dimen209
 \tikz@figbox=\box65
 \tikz@tempbox=\box66
-\tikztreelevel=\count175
-\tikznumberofchildren=\count176
-\tikznumberofcurrentchild=\count177
-\tikz@fig@count=\count178
+\tikztreelevel=\count174
+\tikznumberofchildren=\count175
+\tikznumberofcurrentchild=\count176
+\tikz@fig@count=\count177
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count179
-\pgfmatrixcurrentcolumn=\count180
-\pgf@matrix@numberofcolumns=\count181
+\pgfmatrixcurrentrow=\count178
+\pgfmatrixcurrentcolumn=\count179
+\pgf@matrix@numberofcolumns=\count180
 )
-\tikz@expandcount=\count182
+\tikz@expandcount=\count181
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -1132,7 +1033,7 @@ ations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen213
 \pgfdecoratedinputsegmentremainingdistance=\dimen214
 \pgf@decorate@distancetomove=\dimen215
-\pgf@decorate@repeatstate=\count183
+\pgf@decorate@repeatstate=\count182
 \pgfdecorationsegmentamplitude=\dimen216
 \pgfdecorationsegmentlength=\dimen217
 )
@@ -1147,7 +1048,7 @@ Library (tcolorbox): 'tcbskins.code.tex' version '2.72'
 (/usr/share/texmf/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '2.72'
 ))
-Grid set 30 x 100 = 163.12912pt x 31.86708pt
+Grid set 100 x 30 = 48.93874pt x 106.22362pt
 TextBlockOrigin set to 40mm x 40mm
 ) (./poster.aux)
 \openout1 = `poster.aux'.
@@ -1166,15 +1067,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 *geometry* driver: auto-detecting
@@ -1196,12 +1090,12 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=20.0pt
+* \topskip=11.0pt
 * \footskip=14.22636pt
-* \marginparwidth=0.0pt
-* \marginparsep=15.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=16.0pt plus 6.0pt minus 3.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1213,16 +1107,16 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count184
+\scratchcounter=\count183
 \scratchdimen=\dimen218
 \scratchbox=\box89
-\nofMPsegments=\count185
-\nofMParguments=\count186
+\nofMPsegments=\count184
+\nofMParguments=\count185
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count187
+\MPscratchCnt=\count186
 \MPscratchDim=\dimen219
-\MPnumerator=\count188
-\makeMPintoPDFobject=\count189
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
 \everyMPtoPDFconversion=\toks58
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1248,7 +1142,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count190
+\c@section@level=\count189
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -1331,19 +1225,148 @@ File: img/IASS_Logo_white.png Graphic file (type png)
 <use img/IASS_Logo_white.png>
 Package pdftex.def Info: img/IASS_Logo_white.png used on input line 6.
 (pdftex.def)             Requested size: 313.65102pt x 219.70026pt.
-LaTeX Font Info:    Try loading font information for T1+put on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1put.fd
-File: t1put.fd 2001/06/04 font definitions for T1/put.
+ (./tex_files/introduction.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <40> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
+LaTeX Font Info:    Calculating math sizes for size <20.16> on input line 5.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.16> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.11194> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.08> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <16.8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <11.75995> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8.4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
+LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <29.04> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.3279> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.51999> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+LaTeX Info: Redefining \bond on input line 15.
+LaTeX Info: Redefining \dbond on input line 15.
+LaTeX Info: Redefining \tbond on input line 15.
+LaTeX Info: Redefining \bond on input line 15.
+LaTeX Info: Redefining \dbond on input line 15.
+LaTeX Info: Redefining \tbond on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 17.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <34.83> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <24.38089> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.415> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
 )
-File: img/IASS_Logo_white.png Graphic file (type png)
+(./tex_files/gap.tex) (./tex_files/methodology.tex) (./tex_files/results.tex
+<img/O3_comparison.pdf, id=13, 481.8pt x 696.6025pt>
+File: img/O3_comparison.pdf Graphic file (type pdf)
 
-<use img/IASS_Logo_white.png>
-Package pdftex.def Info: img/IASS_Logo_white.png used on input line 55.
+<use img/O3_comparison.pdf>
+Package pdftex.def Info: img/O3_comparison.pdf used on input line 7.
+(pdftex.def)             Requested size: 1195.86115pt x 1729.18265pt.
+LaTeX Info: Redefining \bond on input line 11.
+LaTeX Info: Redefining \dbond on input line 11.
+LaTeX Info: Redefining \tbond on input line 11.
+LaTeX Info: Redefining \bond on input line 13.
+LaTeX Info: Redefining \dbond on input line 13.
+LaTeX Info: Redefining \tbond on input line 13.
+LaTeX Info: Redefining \bond on input line 14.
+LaTeX Info: Redefining \dbond on input line 14.
+LaTeX Info: Redefining \tbond on input line 14.
+
+<img/Ox_budgets_Contributions.pdf, id=14, 505.89pt x 722.7pt>
+File: img/Ox_budgets_Contributions.pdf Graphic file (type pdf)
+
+<use img/Ox_budgets_Contributions.pdf>
+Package pdftex.def Info: img/Ox_budgets_Contributions.pdf used on input line 18
+.
+(pdftex.def)             Requested size: 1195.86115pt x 1708.41335pt.
+LaTeX Info: Redefining \bond on input line 22.
+LaTeX Info: Redefining \dbond on input line 22.
+LaTeX Info: Redefining \tbond on input line 22.
+LaTeX Info: Redefining \bond on input line 22.
+LaTeX Info: Redefining \dbond on input line 22.
+LaTeX Info: Redefining \tbond on input line 22.
+LaTeX Info: Redefining \bond on input line 22.
+LaTeX Info: Redefining \dbond on input line 22.
+LaTeX Info: Redefining \tbond on input line 22.
+LaTeX Info: Redefining \bond on input line 23.
+LaTeX Info: Redefining \dbond on input line 23.
+LaTeX Info: Redefining \tbond on input line 23.
+LaTeX Info: Redefining \bond on input line 23.
+LaTeX Info: Redefining \dbond on input line 23.
+LaTeX Info: Redefining \tbond on input line 23.
+LaTeX Info: Redefining \bond on input line 23.
+LaTeX Info: Redefining \dbond on input line 23.
+LaTeX Info: Redefining \tbond on input line 23.
+LaTeX Info: Redefining \bond on input line 23.
+LaTeX Info: Redefining \dbond on input line 23.
+LaTeX Info: Redefining \tbond on input line 23.
+LaTeX Info: Redefining \bond on input line 23.
+LaTeX Info: Redefining \dbond on input line 23.
+LaTeX Info: Redefining \tbond on input line 23.
+LaTeX Info: Redefining \bond on input line 24.
+LaTeX Info: Redefining \dbond on input line 24.
+LaTeX Info: Redefining \tbond on input line 24.
+LaTeX Info: Redefining \bond on input line 24.
+LaTeX Info: Redefining \dbond on input line 24.
+LaTeX Info: Redefining \tbond on input line 24.
+LaTeX Info: Redefining \bond on input line 24.
+LaTeX Info: Redefining \dbond on input line 24.
+LaTeX Info: Redefining \tbond on input line 24.
+LaTeX Info: Redefining \bond on input line 25.
+LaTeX Info: Redefining \dbond on input line 25.
+LaTeX Info: Redefining \tbond on input line 25.
+LaTeX Info: Redefining \bond on input line 25.
+LaTeX Info: Redefining \dbond on input line 25.
+LaTeX Info: Redefining \tbond on input line 25.
+LaTeX Info: Redefining \bond on input line 25.
+LaTeX Info: Redefining \dbond on input line 25.
+LaTeX Info: Redefining \tbond on input line 25.
+LaTeX Info: Redefining \bond on input line 25.
+LaTeX Info: Redefining \dbond on input line 25.
+LaTeX Info: Redefining \tbond on input line 25.
+) (./tex_files/conclusions.tex
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 5.
+LaTeX Info: Redefining \dbond on input line 5.
+LaTeX Info: Redefining \tbond on input line 5.
+LaTeX Info: Redefining \bond on input line 6.
+LaTeX Info: Redefining \dbond on input line 6.
+LaTeX Info: Redefining \tbond on input line 6.
+LaTeX Info: Redefining \bond on input line 8.
+LaTeX Info: Redefining \dbond on input line 8.
+LaTeX Info: Redefining \tbond on input line 8.
+LaTeX Info: Redefining \bond on input line 8.
+LaTeX Info: Redefining \dbond on input line 8.
+LaTeX Info: Redefining \tbond on input line 8.
+)
+<img/Sponsor_logos.png, id=15, 695.2374pt x 149.5989pt>
+File: img/Sponsor_logos.png Graphic file (type png)
+
+<use img/Sponsor_logos.png>
+Package pdftex.def Info: img/Sponsor_logos.png used on input line 60.
+(pdftex.def)             Requested size: 950.32202pt x 204.49956pt.
+File: img/IASS_Logo_white.png Graphic file (type png)
+ <use img/IASS_Logo_white.png>
+Package pdftex.def Info: img/IASS_Logo_white.png used on input line 60.
 (pdftex.def)             Requested size: 313.65102pt x 219.70026pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./img/IASS_Logo_white.png>]
+ <./img/IASS_Logo_white.png> <./img/O3_comparison.pdf> <./img/Ox_budgets_Contri
+butions.pdf
+
+pdfTeX warning: pdflatex (file ./img/Ox_budgets_Contributions.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./img/Sponsor_logos.png>]
 \tf@nav=\write7
 \openout7 = `poster.nav'.
 
@@ -1353,29 +1376,33 @@ Package pdftex.def Info: img/IASS_Logo_white.png used on input line 55.
 \tf@snm=\write9
 \openout9 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 24149 strings out of 495007
- 465830 string characters out of 3179690
- 617366 words of memory out of 3000000
- 26751 multiletter control sequences out of 15000+200000
- 35597 words of font info for 29 fonts, out of 3000000 for 9000
+ 23660 strings out of 495007
+ 461235 string characters out of 3179690
+ 630318 words of memory out of 3000000
+ 26253 multiletter control sequences out of 15000+200000
+ 85568 words of font info for 127 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,20n,76p,980b,1023s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,25n,76p,980b,1541s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on poster.pdf (1 page, 33952 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb>
+Output written on poster.pdf (1 page, 251640 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
