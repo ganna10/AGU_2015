@@ -37,16 +37,13 @@ d <- d %>%
   gather(Reaction, Fraction, -Run, -Mechanism, -Temperature.C, - NOx.Condition)
 
 d$NOx.Condition <- factor(d$NOx.Condition, levels = c("Low-NOx", "Maximal-O3", "High-NOx"))
-levels(d$NOx.Condition)[1] <- "Low-NOx\n"
-levels(d$NOx.Condition)[2] <- "Maximal-O3\n"
-levels(d$NOx.Condition)[3] <- "High-NOx\n"
 
 my.colours = c("HO2" = "#6c254f", "CH3O2" = "#2b9eb3", "CH3CO3" = "#ef6638", "RO2" = "#0e5c28")
 
 p <- plot_species_budgets(d, Absolute = FALSE, Stacked = FALSE)
 p <- p + scale_colour_manual(values = my.colours)
-# p <- p + theme(legend.position = "top")
-p <- p + ggtitle("Contributions of Peroxy Radical + NO Reaction to O3 Budgets\n")
+p <- p + ggtitle("Contributions of Peroxy Radical + NO Reaction to O3 Budgets")
+p <- p + guides(linetype = FALSE)
 p <- direct.label(p, list("last.bumpup", cex = 0.6))
 p1 = ggplot_gtable(ggplot_build(p))
 p1$layout$clip[p1$layout$name == "panel"] = "off"
