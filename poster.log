@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  24 NOV 2015 14:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  29 NOV 2015 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,8 +107,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen126
 \Gm@dimlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size20.clo
+File: size20.clo 1999/11/11 NON-Standard LaTeX file (size option)
 )
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -688,10 +688,8 @@ beamerposter: checking orientation input, please wait.
 beamerposter: the input landscape\ 1\ was correct, we proceed.
 beamerposter: finished orientation check.
 beamerposter: checking size input, please wait.
-beamerposter: the input custom\ 6\ was correct, we proceed.
+beamerposter: the input a0\ 1\ was correct, we proceed.
 beamerposter: finished size input check.
-beamerposter: custom poster width=180
-beamerposter: custom poster height=120
 beamerposter: myfontscale=1.4
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
@@ -740,8 +738,7 @@ Package: fp-upn 1996/10/21
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
-)) ( FP-UPN ( FP-SUB )
-) ( FP-UPN ( FP-SUB ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
+)) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
@@ -754,7 +751,8 @@ Package: fp-eval 1995/04/03
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
-( FP-ROUND ) )) (/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
+( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ))
+(/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2012/06/01 v1.7h
 
 Package: textpos 2012/06/01 1.7h, absolute positioning of text on the page
@@ -764,7 +762,7 @@ Package: textpos 2012/06/01 1.7h, absolute positioning of text on the page
 \TPVertModule=\dimen183
 \TP@margin=\dimen184
 \TP@absmargin=\dimen185
-Grid set 16 x 16 = 320.09349pt x 213.39566pt
+Grid set 16 x 16 = 211.29729pt x 149.30585pt
 \TPboxrulesize=\dimen186
 \TP@ox=\dimen187
 \TP@oy=\dimen188
@@ -1048,8 +1046,8 @@ Library (tcolorbox): 'tcbskins.code.tex' version '2.72'
 (/usr/share/texmf/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '2.72'
 ))
-Grid set 100 x 30 = 48.93874pt x 106.22362pt
-TextBlockOrigin set to 40mm x 40mm
+Grid set 100 x 30 = 32.55563pt x 75.45671pt
+TextBlockOrigin set to 22mm x 22mm
 ) (./poster.aux)
 \openout1 = `poster.aux'.
 
@@ -1079,23 +1077,23 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(0.0pt, 5121.49605pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 3414.3307pt, 0.0pt)
-* \paperwidth=5121.49605pt
-* \paperheight=3414.3307pt
-* \textwidth=5121.49605pt
-* \textheight=3385.87798pt
+* h-part:(L,W,R)=(0.0pt, 3380.75665pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 2388.89357pt, 0.0pt)
+* \paperwidth=3380.75665pt
+* \paperheight=2388.89357pt
+* \textwidth=3380.75665pt
+* \textheight=2360.44084pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=11.0pt
+* \topskip=20.0pt
 * \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=15.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=16.0pt plus 6.0pt minus 3.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1273,15 +1271,15 @@ LaTeX Info: Redefining \tbond on input line 18.
 File: VOC_Oxidation.pdf Graphic file (type pdf)
  <use VOC_Oxidation.pdf>
 Package pdftex.def Info: VOC_Oxidation.pdf used on input line 22.
-(pdftex.def)             Requested size: 950.32202pt x 330.74422pt.
+(pdftex.def)             Requested size: 622.65997pt x 216.70734pt.
 )
 (./tex_files/gap.tex) (./tex_files/methodology.tex) (./tex_files/results.tex
-<Plotting/results.pdf, id=14, 983.97385pt x 763.93713pt>
+<Plotting/results.pdf, id=14, 1033.66327pt x 766.91959pt>
 File: Plotting/results.pdf Graphic file (type pdf)
 
 <use Plotting/results.pdf>
 Package pdftex.def Info: Plotting/results.pdf used on input line 6.
-(pdftex.def)             Requested size: 2657.48726pt x 2063.672pt.
+(pdftex.def)             Requested size: 1756.41663pt x 1303.19604pt.
 LaTeX Info: Redefining \bond on input line 14.
 LaTeX Info: Redefining \dbond on input line 14.
 LaTeX Info: Redefining \tbond on input line 14.
@@ -1358,7 +1356,7 @@ File: img/Sponsor_logos.png Graphic file (type png)
 
 <use img/Sponsor_logos.png>
 Package pdftex.def Info: img/Sponsor_logos.png used on input line 60.
-(pdftex.def)             Requested size: 950.32202pt x 204.49956pt.
+(pdftex.def)             Requested size: 622.65997pt x 133.98947pt.
 File: img/IASS_Logo_white.png Graphic file (type png)
  <use img/IASS_Logo_white.png>
 Package pdftex.def Info: img/IASS_Logo_white.png used on input line 60.
@@ -1389,10 +1387,10 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 23661 strings out of 495007
- 461175 string characters out of 3179690
- 631318 words of memory out of 3000000
- 26254 multiletter control sequences out of 15000+200000
+ 23659 strings out of 495007
+ 461158 string characters out of 3179690
+ 631219 words of memory out of 3000000
+ 26250 multiletter control sequences out of 15000+200000
  85568 words of font info for 127 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,26n,76p,980b,1531s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1402,10 +1400,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvr8a.pfb>
-Output written on poster.pdf (1 page, 226989 bytes).
+Output written on poster.pdf (1 page, 232388 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 252 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  3 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

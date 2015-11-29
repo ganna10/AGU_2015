@@ -1,5 +1,5 @@
 \usepackage[T1]{fontenc}
-\usepackage[orientation=landscape, size = custom, width = 180, height = 120, scale = 1.4]{beamerposter}
+\usepackage[orientation=landscape, size = a0, scale = 1.4]{beamerposter}
 \usepackage[absolute, overlay]{textpos}
 \usepackage{graphicx}
 \DeclareGraphicsExtensions{.png, .jpg, .pdf}
@@ -36,7 +36,7 @@
 \definecolor{BkgdBlue}{RGB}{224,238,244}
 \definecolor{BkgdGrey}{RGB}{236,236,236}
 
-\TPGrid[40mm,40mm]{100}{30}
+\TPGrid[22mm,22mm]{100}{30}
 
 %create colourbox for framing each sections text
 \newtcolorbox{BlueBox}{spartan, colback=BkgdBlue, colframe=TitleBlue, toprule=5mm, bottomrule=0mm, rightrule=0mm, leftrule=0mm} %blue boxes
@@ -71,7 +71,7 @@
 \newcommand{\highlightcolor}{TitleBlue}
 \newcommand{\authorname}{Jane Coates and Tim Butler}
 \newcommand{\postertitle}{The Influence of Atmospheric Conditions on the Production of Ozone during VOC Oxidation}
-%\newcommand{\subposter}{A Comparison of Chemical Mechanisms}
+%\newcommand{\subposter}{Production of Ozone during VOC Oxidation}
 \newcommand{\Institute}{Institute for Advanced Sustainability Studies (IASS)}
 
 %header
@@ -86,21 +86,21 @@
         \begin{flushleft}
             \begin{tikzpicture}[overlay]
                 \node (topleft) {};
-                \node (lowerleft) [below = 2cm of topleft] {}; 
-                \node (A) [right = 3.4cm of lowerleft] {};
-                \node (B) [right = 160cm of A] {};
+                \node (lowerleft) [below = 1cm of topleft] {}; 
+                \node (A) [right = 1.8cm of lowerleft] {};
+                \node (B) [right = 102cm of A] {};
                 \draw [draw = white, line width = 7mm] (A) -- (B);
                 \node (dummy) [below = 2.5cm of A] {};
-                \node (logo) [right = 161cm of dummy] {\includegraphics{img/IASS_Logo_white}};
+                \node (logo) [right = 103cm of dummy] {\includegraphics{img/IASS_Logo_white}};
             \end{tikzpicture}
-            \vskip4cm \hskip38mm
-            \usebeamercolor{institute in headline}{\color{fg}{\fontsize{50}{45} \selectfont \Institute}\\}
-            \vskip5cm \hskip38mm
-            \usebeamercolor{title in headline}{\color{fg}{\fontsize{115}{140} \selectfont \postertitle}\\}
-            \vskip3cm \hskip38mm
+            \vskip2.3cm \hskip22mm
+            \usebeamercolor{institute in headline}{\color{fg}{\fontsize{40}{35} \selectfont \Institute}\\}
+            \vskip4.1cm \hskip22mm
+            \usebeamercolor{title in headline}{\color{fg}{\fontsize{77}{60} \selectfont \postertitle}\\}
+            \vskip1.5cm \hskip22mm
             %\usebeamercolor{title in headline}{\color{fg}{\fontsize{80}{96} \selectfont \subposter}\\}
-            %\vskip2.6cm \hskip38mm
-            \usebeamercolor{author in headline}{\color{fg}{\fontsize{65}{45} \selectfont \authorname}\\}
+            %\vskip2.6cm \hskip22mm
+            \usebeamercolor{author in headline}{\color{fg}{\fontsize{55}{35} \selectfont \authorname}\\}
             \vskip2cm
         \end{flushleft}
     \end{beamercolorbox}
